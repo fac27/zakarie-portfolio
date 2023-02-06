@@ -1,8 +1,7 @@
 ## Purpose
 
-The purpose of this portfolio is to demonstrate the learning outcomes you've attained during your time at Founders and Coders (and beyond!). The portfolio should include code snippets and screenshots projects you've worked on, which will serve as evidence of your knowledge and abilities when you do your assessments.
-
-This portfolio template is also designed to showcase your skills and achievements to potential employers and others. By regularly updating your portfolio with new projects and learning outcomes, you can demonstrate your ongoing growth and development as a programmer.
+The purpose of this repository is to showcase collections of topics and concepts i have learned at Founders and Coders<br /> pre-apprenticeship course.
+It will include links to projects and code snippets from the main topics.<br /> It will be regularly updated to reflect my journey.
 
 ## Learnings
 
