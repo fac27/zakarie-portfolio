@@ -1,6 +1,6 @@
 ## Purpose
 
-The purpose of this repository is to showcase collections of topics and concepts i have learned at Founders and Coders<br /> pre-apprenticeship course.
+The purpose of this repository is to showcase collections of topics and concepts i have learned at Founders and Coders pre-apprenticeship course.<br />
 It will include links to projects and code snippets from the main topics.<br /> It will be regularly updated to reflect my journey.
 
 ## Learnings
