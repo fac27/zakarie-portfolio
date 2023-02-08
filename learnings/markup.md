@@ -1,5 +1,4 @@
 ## 1. Structure a site using semantic HTML to aid accessibility
-
 We made sure we used consistent semantic html elements through out our project.<br />
 
 ```html
@@ -17,7 +16,6 @@ and "cite" tag, used to indicate the source of the quote, provides a clear and s
 of the content in the footer, making it easier for both users and assistive technologies to understand the content.
 
 ## 2. Ensure a web page is readable for screen readers
-
 We have utilised a number of techniques to ensure the content is readable for screen readers, <br />
 making the web page more accessible for users with disabilities.
 
@@ -128,6 +126,10 @@ color throughout our stylesheet. This makes it easier to keep the colors consist
 <div class="inputs flex column stack-s">
 ```
 
+We defined basic primitive flex layout classes on our CSS to style children in a single direction and <br />
+we added those classes to our html elements. To control the alignment of the flex items along the main axis and cross axis, <br />
+we used the justify-content and align-items properties respectively.
+
 ## 9. Use CSS Grid to style children in two-direction layout
 ```css
 {
@@ -140,9 +142,14 @@ color throughout our stylesheet. This makes it easier to keep the colors consist
 }
 ```
 
+This is the CSS applied to the parent element of a scrollable gallery section on the page. <br />
+It allowed us to create flexible 2d layout that can adapt to different screen sizes and devices.
+
 ## 10. Ensure our Git commit history tells a coherent story
+![commits image](../imgs/commits.png)
 
 ## 11. Use the appropriate input types in HTML forms for gathering different types of information
+Code for our contact us form:
 ```html
 <form id="contact-form" class="contact__form active__form flex column stack-m"
     aria-label="contact form" tabindex="0">
@@ -166,3 +173,9 @@ color throughout our stylesheet. This makes it easier to keep the colors consist
     <p class="submission__info">Form submitted successfully!</p>
 </form>
 ```
+We set up the form in a way that provides better accessibility, user experience, and semantic meaning to the form data.<br />
+This also helps prevent invalid or incorrect data from being submitted, improving the overall reliability and <br />
+usability of the form. <br /><br />
+
+Additionally, using the appropriate input types makes it easier for screen readers and other assistive technologies <br />
+to understand the purpose and structure of the form, improving accessibility for users with disabilities.
